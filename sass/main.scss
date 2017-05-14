@@ -1,0 +1,55 @@
+html, body {
+	background-image: url(".././images/mushrooms_pattern.jpg")
+}
+
+.panel-login {
+	margin-top: 20px;
+}
+
+.panel-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.panel-primary {
+	background-color: #00BFFF
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+
+.col-sm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+	.col-sm-6 {
+	    width: 46%;
+	}
+}
+
+.description {
+	min-height: 120px;
+}
+
+@font-face {
+    font-family: "Beyond Wonderland";
+    src: url(.././fonts/Beyond%20Wonderland.ttf) format("truetype");
+}
+
+.magic { 
+    font-family: "Beyond Wonderland", Verdana, Tahoma;
+    font-size: 3em;
+}
+
+
+
